@@ -14,7 +14,7 @@ const Navbar= ()=> {
                 <nav className="navbar flex items-center justify-between text-white relative">
                     <section className="flex items-center justify-between w-full">
                         <a href="index.html" className="flex items-center space-x-4 p-4">
-                            <img src="img/workingtogether.png" alt="Working Together Logo"
+                            <img src="/img/workingtogether.png" alt="Working Together Logo"
                                  className="w-12 h-8 sm:w-16 sm:h-16"/>
                             <p className="text-md sm:text-lg">Working Together</p>
                         </a>

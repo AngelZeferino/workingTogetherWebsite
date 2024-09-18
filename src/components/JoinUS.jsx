@@ -6,7 +6,7 @@ const GetInvolved = () => {
             <h1 className="flex text-2xl font-bold mb-4 justify-end text-blue-900">Join Us</h1>
             {/* First Section: Donate */}
             <div className="flex flex-col sm:flex-row items-center mb-10">
-                <img src="img/wtJoinUsVolunteer1.JPG" alt="Donate" className="w-full sm:w-1/2 h-64 object-cover"/>
+                <img src="/img/wtJoinUsVolunteer1.JPG" alt="Donate" className="w-full sm:w-1/2 h-64 object-cover"/>
                 <div className="relative w-full sm:w-1/2 h-64 flex items-end bg-blue-700 bg-opacity-50 p-6">
                     <div className="absolute top-0 right-0 h-full w-2 bg-blue-900"></div>
                     <div className="text-white">
@@ -33,12 +33,12 @@ const GetInvolved = () => {
                         </button>
                     </div>
                 </div>
-                <img src="img/wtJoinUs2.JPG" alt="Volunteer" className="w-full sm:w-1/2 h-64 object-cover"/>
+                <img src="/img/wtJoinUs2.JPG" alt="Volunteer" className="w-full sm:w-1/2 h-64 object-cover"/>
             </div>
 
             {/* Third Section: Join Us */}
             <div className="flex flex-col sm:flex-row items-center mb-10">
-                <img src="img/wtJoinUs3.JPG" alt="Join Us" className="w-full sm:w-1/2 h-64 object-cover"/>
+                <img src="/img/wtJoinUs3.JPG" alt="Join Us" className="w-full sm:w-1/2 h-64 object-cover"/>
                 <div className="relative w-full sm:w-1/2 h-64 flex items-end bg-blue-700 bg-opacity-50 p-6">
                     <div className="absolute top-0 right-0 h-full w-2 bg-blue-900"></div>
                     <div className="text-white">

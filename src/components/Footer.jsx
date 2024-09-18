@@ -8,7 +8,7 @@ const Footer = () => {
                 {/* Right Side: Logo and Buttons */}
                 <div className="flex flex-col items-center space-y-4 sm:items-start">
                     <div className="flex flex-col items-center">
-                        <img src="img/workingtogether.png" alt="Logo" className="h-16 w-auto" />
+                        <img src="/img/workingtogether.png" alt="Logo" className="h-16 w-auto" />
                         <p className="text-xs"> <i> Empowering Communities </i> </p>
                     </div>
                     <button className="bg-white text-[#5A72A0] font-semibold py-2 px-4 rounded">Our Programs</button>

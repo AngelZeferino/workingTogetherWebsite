@@ -26,7 +26,7 @@ function Home() {
         <>
             <main className="bg-beige">
                 <div className="bg-black">
-                <div className="w-screen max-h-screen bg-no-repeat bg-cover bg-center bg-[url('img/wtActionImage.png')] py-0 my-0 sm:h-96">
+                <div className="w-screen max-h-screen bg-no-repeat bg-cover bg-center bg-[url('/img/wtActionImage.png')] py-0 my-0 sm:h-96">
                     <Navbar/>
                     <section className="flex items-center justify-center ">
                         <span className="flex items-center justify-center px-4 pb-16 w-fit sm:w-10/12 sm:pb-0 md:w-8/12 lg:w-6/12 lg:h-16 md:h-20 lg:h-24">
@@ -44,7 +44,7 @@ function Home() {
                 <ImpactCarousel/>
                 <div className="flex justify-center ">
                     <img
-                        src="img/wtImagelayoutOver1.png"
+                        src="/img/wtImagelayoutOver1.png"
                         alt="Overlapping"
                         className="w-screen max-h-screen sm: max-h-screen"
                     />

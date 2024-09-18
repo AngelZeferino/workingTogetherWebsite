@@ -10,7 +10,7 @@ const AboutUs = () => {
 
                 <div className="flex flex-col items-center sm:flex-row sm:space-x-6">
                     <img
-                        src="img/wtAboutUs2.JPG"
+                        src="/img/wtAboutUs2.JPG"
                         alt="About Us Image"
                         className="h-48 sm:h-64 w-auto rounded-lg shadow-lg transition-transform transform hover:scale-105"
                     />
@@ -53,7 +53,7 @@ const AboutUs = () => {
                             planted.
                         </p>
                         <img
-                            src="img/wtAliciaAboutUs.jpg"
+                            src="/img/wtAliciaAboutUs.jpg"
                             alt="Founder Image"
                             className="h-48 sm:h-64 w-auto rounded-lg shadow-lg transition-transform transform hover:scale-105"
                         />
