@@ -22,8 +22,8 @@ const ImpactCarousel = () => {
     ];
 
     return (
-        <div className="flex flex-col items-center justify-center bg-beige m-0 py-10 px-4 sm:py-20">
-            <h2 className="text-2xl font-bold text-yellow-500 mb-6 sm:text-4xl">Our Impact</h2>
+        <div className="flex flex-col items-center justify-center m-0 py-10 px-4 sm:py-20">
+            <h2 className="text-2xl font-bold text-yellow-500 mb-6 sm:text-3xl">Our Impact</h2>
             <div className="w-full sm:w-4/5 lg:w-2/3">
                 <Slider {...settings}>
                     {impactStatements.map((statement, index) => (
@@ -31,7 +31,7 @@ const ImpactCarousel = () => {
                             key={index}
                             className="p-4 sm:p-6 bg-beige rounded-lg text-center shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out transform hover:scale-105"
                         >
-                            <p className="text-base sm:text-xl lg:text-2xl text-gray-700">{statement}</p>
+                            <p className="text-base  sm:text-xl lg:text-2xl text-gray-700">{statement}</p>
                         </div>
                     ))}
                 </Slider>

@@ -4,8 +4,7 @@ const AboutUs = () => {
     return (
         <main>
 
-            <div
-                className="container mx-auto px-4 py-8 bg-beigerounded-lg shadow-lg">
+            <div className="container mx-auto px-4 py-8 bg-beigerounded-lg ">
                 <h1 className="text-2xl font-bold mb-6 text-green-800 text-left">About Us</h1>
 
                 <div className="flex flex-col items-center sm:flex-row sm:space-x-6">
@@ -14,7 +13,7 @@ const AboutUs = () => {
                         alt="About Us Image"
                         className="h-48 sm:h-64 w-auto rounded-lg shadow-lg transition-transform transform hover:scale-105"
                     />
-                    <p className="text-lg leading-relaxed text-gray-700 sm:text-left text-center mt-6 sm:mt-0 bg-beige p-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                    <p className="text-base leading-relaxed text-gray-700 sm:text-left text-center sm:text-lg mt-6 sm:mt-0 bg-beige p-6 ">
                         At the beginning of 2007, a group of low-income Hispanic mothers, concerned about their
                         children’s health and lack of after-school activity options, met in the park to play soccer
                         with their kids. Other parents from the community joined in, and with the help of amazing
@@ -35,7 +34,7 @@ const AboutUs = () => {
                 <div>
                     <h2 className="text-2xl font-bold text-green-800 pb-5 text-center">About the Founder</h2>
                     <div className="flex flex-col-reverse sm:flex-row sm:space-x-6 items-center">
-                        <p className="text-lg leading-relaxed text-gray-700 py-10 sm: p-6 text-left text-center bg-beigep-6 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                        <p className="text-base leading-relaxed text-gray-700 py-10 sm: p-6 text-left text-center bg-beigep-6 sm:text-lg ">
                             As a child growing up in Mexico City, Alicia remembers the influence her grandfather who
                             came to Chicago in 1925 to build helicopters had on her life. Although he needed to return
                             to Mexico to help his family, he filled their home with American music: The Supremes, Diana

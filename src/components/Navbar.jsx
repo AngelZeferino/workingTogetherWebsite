@@ -16,11 +16,11 @@ const Navbar= ()=> {
                         <a href="index.html" className="flex items-center space-x-4 p-4">
                             <img src="/img/workingtogether.png" alt="Working Together Logo"
                                  className="w-12 h-8 sm:w-16 sm:h-16"/>
-                            <p className="text-md sm:text-lg">Working Together</p>
+                            <p className="text-md sm:text-lg text-beige">Working Together</p>
                         </a>
 
                         {/* Navbar Items for Larger Screens */}
-                        <ul className="hidden pr-4 md:flex items-center space-x-6">
+                        <ul className="hidden pr-4 md:flex items-center space-x-6 text-beige">
                             <li><Link to="/" className="text-lg">Home</Link></li>
                             <li><a href="#" className="text-lg">Our Programs</a></li>
                             <li><a href="#" className="text-lg">Get Involved</a></li>

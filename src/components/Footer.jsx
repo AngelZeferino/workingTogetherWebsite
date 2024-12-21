@@ -2,7 +2,7 @@ import { FaFacebookF, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#5A72A0] text-white py-10">
+        <footer className="bg-[#5A72A0] text-beige py-10">
             <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center sm:items-start space-y-10 sm:space-y-0 sm:space-x-10 px-4">
 
                 {/* Right Side: Logo and Buttons */}
@@ -11,13 +11,13 @@ const Footer = () => {
                         <img src="/img/workingtogether.png" alt="Logo" className="h-16 w-auto" />
                         <p className="text-xs"> <i> Empowering Communities </i> </p>
                     </div>
-                    <button className="bg-white text-[#5A72A0] font-semibold py-2 px-4 rounded">Our Programs</button>
-                    <button className="bg-white text-[#5A72A0] font-semibold py-2 px-4 rounded">Our History</button>
-                    <button className="bg-white text-[#5A72A0] font-semibold py-2 px-4 rounded">Get Involved</button>
+                    <button className="bg-beige text-[#5A72A0] font-semibold py-2 px-4 rounded">Our Programs</button>
+                    <button className="bg-beige text-[#5A72A0] font-semibold py-2 px-4 rounded">Our History</button>
+                    <button className="bg-beige text-[#5A72A0] font-semibold py-2 px-4 rounded">Get Involved</button>
                 </div>
 
                 {/* Left Side: Contact Info and Social Media */}
-                <div className="flex flex-col space-y-4">
+                <div className="flex flex-col space-y-4 text-beige">
                     <div>
                         <h3 className="font-bold text-lg">Contact Info</h3>
                         <p>Phone: 1 (224) 829-9281</p>
@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
 
             {/* White Horizontal Line */}
-            <div className="border-t border-white mt-10"></div>
+            <div className="border-t border-beige mt-10"></div>
 
             {/* Copyright */}
             <div className="text-center py-4">

@@ -34,16 +34,16 @@ const ProgramList = () => {
     };
     return (
         <div className="container mx-auto px-4 py-8">
-            <h1 className="text-2xl text-red-700 font-bold mb-4">Our Programs</h1>
-            <div className="flex flex-col items-center sm:flex-row bg-beige p-4 sm:p-8 rounded-lg shadow-lg">
+            <h1 className="text-2xl text-red-700 font-bold mb-4">Programs</h1>
+            <div className="flex flex-col items-center sm:flex-row bg-beige p-4 sm:p-8 rounded-lg ">
                 <img
                     src="img/wtProgramPicture.png"
                     alt="Program Image"
                     className="h-48 w-auto sm:h-72 sm:w-auto rounded-lg shadow-md mb-4 sm:mb-0 transition-transform transform hover:scale-105 animate-slide-in"
                 />
                 <div
-                    className="flex flex-col justify-center text-center sm:text-left sm:ml-32 bg-beige p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl">
-                    <h2 className="text-2xl sm:text-3xl font-semibold text-red-700 mb-4 text-shadow-md">
+                    className="flex flex-col justify-center text-center sm:text-left sm:ml-32 bg-beige p-6">
+                    <h2 className="text-xl sm:text-xl font-semibold text-red-700 mb-4 ">
                         Our Vision
                     </h2>
                     <p className="text-gray-800 text-base sm:text-lg leading-relaxed">

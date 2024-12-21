@@ -2,7 +2,7 @@ import React from "react";
 
 const GetInvolved = () => {
     return (
-        <div className="container mx-auto py-10 px-4 p-8 rounded-lg shadow-lg">
+        <div className="container mx-auto py-10 px-4 p-8 rounded-lg ">
             <h1 className="flex text-2xl font-bold mb-4 justify-end text-blue-900">Join Us</h1>
             {/* First Section: Donate */}
             <div className="flex flex-col sm:flex-row items-center mb-10">

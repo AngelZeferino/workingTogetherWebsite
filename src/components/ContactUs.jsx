@@ -20,7 +20,7 @@ const ContactUs = () => {
     };
 
     return (
-        <div className="container mx-auto py-10 px-4 rounded-lg shadow-lg">
+        <div className="container mx-auto py-10 px-4 ">
             <h1 className="text-2xl font-bold mb-4 pb-10 text-blue-900">Got Questions?</h1>
             <div
                 className="flex flex-col sm:flex-row justify-between items-start space-y-10 sm:space-y-0 sm:space-x-10">
@@ -33,7 +33,7 @@ const ContactUs = () => {
                 </div>
 
                 {/* Right Side: Contact Form */}
-                <div className="sm:w-2/3 p-6 rounded-lg shadow-lg">
+                <div className="sm:w-2/3 p-6 ">
                     <h3 className="text-xl font-bold mb-4 text-blue-900 ">Contact Us</h3>
                     <form onSubmit={handleSubmit}>
                         <div className="flex flex-col space-y-4">

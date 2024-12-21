@@ -31,7 +31,7 @@ function Home() {
                     <section className="flex items-center justify-center ">
                         <span className="flex items-center justify-center px-4 pb-16 w-fit sm:w-10/12 sm:pb-0 md:w-8/12 lg:w-6/12 lg:h-16 md:h-20 lg:h-24">
                            <span className="text-center">
-                            <h1 className="text-white text-sm sm:text-xl md:text-2xl lg:text-4xl p-4 font-bold text-center">
+                            <h1 className="text-beige text-sm sm:text-xl md:text-2xl lg:text-4xl p-4 font-bold text-center">
                         Empowering Latino Youth for a Better Future
                             </h1>
 
@@ -42,13 +42,7 @@ function Home() {
                 </div>
 
                 <ImpactCarousel/>
-                <div className="flex justify-center ">
-                    <img
-                        src="/img/wtImagelayoutOver1.png"
-                        alt="Overlapping"
-                        className="w-screen max-h-screen sm: max-h-screen"
-                    />
-                </div>
+
 
                 <ProgramList/>
                 <div
